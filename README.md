@@ -4,7 +4,7 @@ A modern, responsive, and minimalist single-page portfolio for JJ, a recent grad
 
 ## 🌐 Live Demo
 
-**[View Live Portfolio →](https://jjcoder-star.github.io/MyOwnPortofolio/)**
+**[View Live Portfolio →](https://jjcoder-star.github.io/MyOwnPortofolio/index.html)**
 
 *Click the link above to see the portfolio in action!*
 
@@ -127,6 +127,7 @@ This is a personal portfolio template. Feel free to fork and customize for your 
 ---
 
 **Built with ❤️ for modern web development**
+
 
 
 
