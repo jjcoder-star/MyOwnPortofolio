@@ -73,26 +73,7 @@ myownweb/
 ### Update Skills
 Current skills: HTML, CSS, JavaScript, Python, PHP, MySQL, GitHub, Responsive Design
 
-## 🌐 Deployment
 
-### GitHub Pages
-1. Create a new repository on GitHub
-2. Upload all files to the repository
-3. Go to Settings → Pages
-4. Select "Deploy from a branch" → Choose `main` branch
-5. Your site will be available at `https://username.github.io/repository-name`
-
-### Netlify
-1. Go to [Netlify](https://netlify.com)
-2. Click "New site from Git"
-3. Connect your GitHub account
-4. Select this repository
-5. Deploy (no build settings needed)
-6. The contact form will work automatically with Netlify
-
-### Custom Domain
-- **GitHub Pages**: Add CNAME file or configure in repository settings
-- **Netlify**: Add custom domain in site settings
 
 ## 📱 Responsive Design
 
@@ -127,6 +108,7 @@ This is a personal portfolio template. Feel free to fork and customize for your 
 ---
 
 **Built with ❤️ for modern web development**
+
 
 
 
