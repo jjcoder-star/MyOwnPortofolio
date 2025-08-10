@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JJ — Web Developer | Portfolio</title>
+    <meta
+      name="description"
+      content="JJ — Recent graduate and web developer building modern, responsive, and fast websites and apps. View projects, skills, and contact details."
+    />
+
+    <!-- Open Graph / Twitter for SEO -->
+    <meta property="og:title" content="JJ — Web Developer" />
+    <meta property="og:description" content="Turning ideas into functional solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="assets/images/project1.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">JJ</a>
+
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="section hero">
+        <div class="container hero-inner">
+                      <div class="hero-copy reveal">
+              <h1 class="hero-title">JJ</h1>
+              <p class="hero-subtitle">Web Developer | Turning Ideas into Functional Solutions</p>
+              <div class="hero-cta">
+                <a
+                  class="btn btn-primary"
+                  href="https://www.fiverr.com/jasmine_farah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Hire Me</a
+                >
+                <a class="btn btn-ghost" href="#projects">View Projects</a>
+              </div>
+            </div>
+          <div class="hero-art reveal" aria-hidden="true">
+            <!-- Profile picture with decorative background -->
+            <div class="profile-container">
+              <img
+                src="assets/images/profile_pic.jpg"
+                alt="JJ - Web Developer"
+                class="profile-pic"
+                loading="eager"
+                width="200"
+                height="200"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>About Me</h2>
+            <p class="section-subtitle">
+              Recent graduate passionate about building websites, apps, and automation tools. Skilled in HTML/CSS, JavaScript, and responsive design.
+            </p>
+          </div>
+
+          <ul class="skills reveal" aria-label="Skills">
+            <li class="tag">HTML</li>
+            <li class="tag">CSS</li>
+            <li class="tag">JavaScript</li>
+            <li class="tag">Python</li>
+            <li class="tag">PHP</li>
+            <li class="tag">MySQL</li>
+            <li class="tag">GitHub</li>
+            <li class="tag">Responsive Design</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>Projects</h2>
+            <p class="section-subtitle">Selected work showcasing design, code quality, and performance.</p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="card reveal">
+              <div class="card-media">
+                <img
+                  src="assets/images/project1.png"
+                  alt="Screenshot placeholder of Future Coders Platform"
+                  loading="lazy"
+                  width="300"
+                  height="200"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Future Coders Platform</h3>
+                <p class="card-text">A learning platform for aspiring coders.</p>
+                <ul class="tech-list" aria-label="Technologies used">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>MYSQL</li>
+                </ul>
+                <div class="card-actions">
+                  <a class="btn btn-secondary" href="https://github.com/jjcoder-star/FC_platform" target="_blank" rel="noopener noreferrer">View Code</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card reveal">
+              <div class="card-media">
+                <img
+                  src="assets/images/project2.png"
+                  alt="Screenshot placeholder of Jasmine Shop Landing Page"
+                  loading="lazy"
+                  width="300"
+                  height="200"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Jasmine Shop Landing Page</h3>
+                <p class="card-text">E-commerce landing page</p>
+                <div class="card-actions">
+                  <a class="btn btn-secondary" href="https://github.com/jjcoder-star/jasmine-landing-page" target="_blank" rel="noopener noreferrer">View Code</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card reveal">
+              <div class="card-media">
+                <img
+                  src="assets/images/project3.png"
+                  alt="Screenshot placeholder of Study Schedule App"
+                  loading="lazy"
+                  width="300"
+                  height="200"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Study Schedule App</h3>
+                <p class="card-text">Productivity app for students.</p>
+                <div class="card-actions">
+                  <a class="btn btn-secondary" href="https://github.com/jjcoder-star/kawaii-study-schedule-App" target="_blank" rel="noopener noreferrer">View Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>Contact</h2>
+            <p class="section-subtitle">Let’s collaborate. I’m open to freelance and full-time opportunities.</p>
+          </div>
+
+          <div class="contact-content">
+            <div class="contact-actions reveal">
+              <a class="btn btn-primary" href="mailto:saam6013@gmail.com">Email Me</a>
+              <div class="socials" aria-label="Social links">
+                <a href="https://github.com/jjcoder-star" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.76.08-.74.08-.74 1.22.09 1.87 1.26 1.87 1.26 1.08 1.86 2.83 1.32 3.52 1.01.11-.79.42-1.32.76-1.62-2.67-.3-5.48-1.34-5.48-5.96 0-1.32.47-2.39 1.25-3.23-.13-.31-.54-1.56.12-3.25 0 0 1.02-.33 3.34 1.23a11.6 11.6 0 0 1 6.08 0c2.31-1.56 3.33-1.23 3.33-1.23.66 1.69.25 2.94.12 3.25.78.84 1.25 1.91 1.25 3.23 0 4.63-2.81 5.66-5.49 5.96.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/>
+                  </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/jj-coder" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8.5h4V23h-4V8.5Zm7.5 0h3.83v1.98h.05c.53-1 1.83-2.06 3.76-2.06 4.02 0 4.77 2.65 4.77 6.1V23H16.4v-5.88c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.09V23H8V8.5Z"/>
+                  </svg>
+                </a>
+                <a href="https://www.fiverr.com/jasmine_farah" target="_blank" rel="noopener noreferrer" aria-label="Fiverr">
+                  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.21 6.5a3.2 3.2 0 0 0-3.2-3.2H6.5V23H11v-7.07h2.42c2.12 0 3.84-1.72 3.84-3.84V9.7h3.23V6.5h-3.28V6.5Zm-3.2 6.7h-3v-4h3a2 2 0 1 1 0 4Z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Optional simple form (works with Netlify if deployed there) -->
+            <form class="contact-form reveal" name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="your@email.com" required />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="How can I help?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> JJ. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <noscript>
+      <style>
+        .reveal { opacity: 1; transform: none; }
+      </style>
+    </noscript>
+
+    <!-- Minimal JS for interactions -->
+    <script src="script.js" defer></script>
+  </body>
+  </html>
+
+
